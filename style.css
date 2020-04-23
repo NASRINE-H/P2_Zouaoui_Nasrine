@@ -229,3 +229,16 @@ padding: 0 20px 0 20px;
     margin-right: 20px;
     opacity: 0.7;
 }
+
+@media
+{
+	body
+	{
+		margin: 0;
+	}
+    #bloc-page{
+        box-shadow: none;
+        border: none;
+        width: 100%;
+    }
+}
