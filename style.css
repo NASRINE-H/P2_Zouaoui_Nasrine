@@ -255,6 +255,7 @@ padding: 0 20px 0 20px;
 {
     margin-bottom: 10px;
     font-weight: bold;
+  
 }
 .education_titre, .experience_titre, .recommandation_titre
 {
@@ -269,6 +270,11 @@ padding: 0 20px 0 20px;
      width: 30px;
     margin-right: 20px;
     opacity: 0.7;
+}
+
+#curricula i
+{
+   margin:15px;
 }
 
 @media all and (max-width: 785px)
@@ -307,6 +313,15 @@ padding: 0 20px 0 20px;
     font-size: 1.5em;
   }
 
+  .titre_cv h3
+  {
+    margin: 2px;
+  }
+  
+  #cv
+  {
+    flex-direction: column-reverse;
+  }
 
 
 }
