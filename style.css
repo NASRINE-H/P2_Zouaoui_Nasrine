@@ -157,12 +157,14 @@ h2, h3, h4
 
 #loisirs i
 {
-
-     width: 40px;
-    border: solid 2px #1FDED8 ;
-    border-radius: 100%;
-    padding:5px 5px 5px 5px ;
-}
+ width: 40px;
+ border: solid 2px #1FDED8 ;
+ border-radius: 100% ;
+ width: 50px;
+ height: 50px;
+ padding:7px 7px 5px 7px;
+ margin: 10px;
+  }
 
 
 .mes_loisirs 
@@ -184,13 +186,13 @@ padding: 0 20px 0 20px;
 
 }
 
-#curricula
+#cursus
 {
     width: 70%
     padding-left: 5%;
     padding-right: 5%;
 }
-#curricula
+#cursus
 {
     margin-left: 15px;
 }
@@ -288,18 +290,29 @@ padding: 0 20px 0 20px;
         border: none;
         width: 100%;
     }
-     header{
+
+     header
+     {
         flex-direction: column;
         align-items: center;
+    
     }
-    .photo-presentation{
+
+    .photo-presentation
+    {
         width: 100%;
+        background: white;
+     
     }
+
     .id-photo
     {
         margin: 10px;
         width: 100px;
         height: 100px;
+         border:2px solid #1FC6DE ;
+    border-radius: 100%;
+      
 
     }
 
@@ -322,6 +335,31 @@ padding: 0 20px 0 20px;
   {
     flex-direction: column-reverse;
   }
+#colone_gauche
+{
+  width: 100%;
+  min-width: 100%;
+  flex-direction: column;
+  background-color: #1FC6DE;
+}
+.contact_info 
+{
+  font-size: 0.6em;
+  padding-left: 0;
+}
+#loisirs i
+{
+ width: 100%;
+ border:  solid 2px #1FDED8 ;
+ border-radius: 100% ;
+ width: 50px;
+ height: 50px;
+ padding:7px 7px 5px 7px;
+ margin: 10px;
+  }
+
+
+
 
 
 }
