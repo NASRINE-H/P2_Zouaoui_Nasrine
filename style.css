@@ -25,6 +25,7 @@
 body
 {
   margin: 0;
+
 }
 
 
@@ -33,7 +34,7 @@ body
     font-family: AbhayaLibre-Regular, sans-serif;
      width: 1000px;
      max-width: 100%;
-      border: 2px solid 006064;
+      border: 2px solid #006064;
       overflow: auto;
       margin: auto;
 }
@@ -167,14 +168,12 @@ h2, h3, h4
 #loisirs i
 {
  width: 40px;
- border: solid 2px #006064 ;
+ height: 40px;
+ border: solid 3px #006064 ;
  border-radius: 100% ;
- width: 50px;
- height: 50px;
  padding:10px 10px 5px 10px;
  margin: 10px;
-
-  }
+   }
 
 
 .mes_loisirs 
@@ -226,7 +225,9 @@ padding: 0 20px 0 20px;
 .societe p
 {
     font-size: 0.9em;
+    font-style: italic;
     margin-top: 8px;
+    color: #006064;
 }
 .societe h3
 {
@@ -266,32 +267,40 @@ padding: 0 20px 0 20px;
 }
 .education_titre h2, .experience_titre h2, .recommandations_titre h2
 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
   
+  
 }
-.education_titre, .experience_titre, .recommandation_titre
+.education_titre, .experience_titre, .recommandations_titre
 {
     display: flex;
     align-items: center;
     border-bottom: solid 2px #006064;
-    margin: 25px 0 25px 0 ;
+    margin: 5px 5px 5px 5px ;
+    
 }
 
-.education_titre i, .experience_titre i, .recommandation_titre i
+.education_titre i, .experience_titre i, .recommandations_titre i
 {
      width: 30px;
     margin-right: 20px;
+    margin-bottom: 1px;
     opacity: 0.7;
     color: #1FC6DE;
 }
+.education_titre p,.experience_titre p, .recommandations_titre p
+{
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
 
-#curricula i
+#cursus i
 {
    margin:15px;
 }
 
-@media all and (max-width: 785px)
+@media all and (max-width: 1024px)
 {
 	body
 	{
@@ -307,12 +316,17 @@ padding: 0 20px 0 20px;
      {
         flex-direction: column;
         align-items: center;
+        
+        
     
     }
 
     .photo-presentation
     {
         width: 100%;
+      
+
+  
     }
 
     .id-photo
@@ -322,6 +336,7 @@ padding: 0 20px 0 20px;
         height: 120px;
          border:2px solid #1FC6DE ;
     border-radius: 100%;
+     background-color: white;
     
 
     }
@@ -333,7 +348,8 @@ padding: 0 20px 0 20px;
 
   .titre_cv h1
   {
-    font-size: 1.5em;
+    font-size: 1.6em;
+    margin-top: 15px;
   }
 
   .titre_cv h3
@@ -369,10 +385,12 @@ padding: 0 20px 0 20px;
  margin: 10px;
   }
 
-  #curriculum{
+  #cursus{
         width: 100%;
         padding: 0 5px 0 5px;
     }
+
+    #cursus
 
 
 
