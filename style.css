@@ -25,6 +25,7 @@
 body
 {
   margin: 0;
+  background: url(images/Background-cv.jpg);
 
 }
 
@@ -37,6 +38,7 @@ body
       border: 2px solid #006064;
       overflow: auto;
       margin: auto;
+      background: white;
 }
 
 h1
@@ -305,72 +307,80 @@ padding: 0 20px 0 20px;
 @media all and (max-width: 1024px)
 {
   body
-  {
-    margin: 0;
-  }
-    #bloc_page{
+      {
+        margin: 0;
+      }
+
+  #bloc_page
+      {
         box-shadow: none;
         border: none;
-        width: 100%;
-    }
+        width: auto;
+      }
 
-     header
+ header
      {
         flex-direction: column;
         align-items: center;
      }
 
-    .photo_presentation
+.photo_presentation
     {
         width: 100%;
         background-color:#ffffff;
     }
 
-    .id_photo
+.id_photo
     {
         margin: 10px;
         width: 120px;
         height: 120px;
      }
 
-    .titre_cv
+.titre_cv
     {
       margin:0;
     }
 
-  .titre_cv h1
-  {
-    font-size: 1.6em;
-    margin-top: 15px;
-  }
+.titre_cv h1
+    {
+        font-size: 1.6em;
+        margin-top: 15px;
+    }
 
-  .titre_cv h3
-  {
-    margin: 2px;
-  }
+.titre_cv h3
+    {
+         margin: 2px;
+    }
   
   #cv
-  {
-    flex-direction: column-reverse;
-  }
-#colone_gauche
-{
-  width: 100%;
-  min-width: 100%;
-}
+    {
+         flex-direction: column-reverse;
+     }
+ #colone_gauche
+    {
+         width: 100%;
+         min-width: 100%;
 
-.contact_info 
-{
-  font-size: 0.9em;
-  margin-left: 15px;
-}
+    }
 
-.mes_loisirs i
-{
-  justify-content: space-around;
-  }
+ .contact_info 
+   {
+        font-size: 0.9em;
+        margin-left: 15px;
+   } 
+ .propo_text p
+   {
+        font-size: 0.9em;
+   }
 
-  #cursus{
+  .mes_loisirs i
+    {
+        justify-content: space-around;
+    }
+
+   #cursus
+   {
         width: 100%;
         padding: 0 5px 0 5px;
     }
@@ -381,7 +391,7 @@ padding: 0 20px 0 20px;
     }
    .societe h3
     {
-     font-size: 0.8em;
+     font-size: 0.9em;
      margin-bottom: 10px;
     }
     .societe
@@ -409,4 +419,7 @@ padding: 0 20px 0 20px;
     {
       width:20px;
     }
+    .recommandations-titre
+    {
+        font-size: 0.9em;
 }
