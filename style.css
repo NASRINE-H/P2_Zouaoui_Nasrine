@@ -261,6 +261,10 @@ padding: 0 20px 0 20px;
     display: flex;
 }
 
+.liste_recommendations
+{
+  margin-left: 20px;
+}
 .date_place i
 {
   width: 15px;
@@ -308,14 +312,15 @@ padding: 0 20px 0 20px;
 {
   body
       {
-        margin: 0;
+        width: auto;
       }
 
   #bloc_page
       {
         box-shadow: none;
         border: none;
-        width: auto;
+        width: 95%;
+        align-self: : center;
       }
 
  header
@@ -381,7 +386,7 @@ padding: 0 20px 0 20px;
 
    #cursus
    {
-        width: 100%;
+        width: 95%;
         padding: 0 5px 0 5px;
     }
 
@@ -422,4 +427,10 @@ padding: 0 20px 0 20px;
     .recommandations-titre
     {
         font-size: 0.9em;
+    }
+  .liste_recommendations
+  {
+    margin-left: 15px;
+  }
+
 }
