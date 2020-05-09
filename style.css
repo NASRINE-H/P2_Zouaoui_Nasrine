@@ -26,9 +26,7 @@ body
 {
   margin: 0;
   background: url(images/Background-cv.jpg);
-
 }
-
 
 #bloc_page
 {
@@ -109,7 +107,6 @@ header
   justify-content: space-between;
   align-items: center;
   background-color:#26C6DA;
-
 }
 
 .contact_info 
@@ -154,8 +151,6 @@ h2, h3, h4
 {
   width: 100%;
   text-align: center;
-
-
 }
 
 #contact h2, #presentaion h2, #loisirs h2
@@ -166,8 +161,6 @@ h2, h3, h4
   padding: 2px 0 2px 0;   
 }
 
-
-
 #loisirs i
 {
   width: 40px;
@@ -176,9 +169,7 @@ h2, h3, h4
   border-radius: 100% ;
   padding:10px 10px 5px 10px;
   margin: 10px;
-
 }
-
 
 .mes_loisirs 
 {
@@ -196,7 +187,6 @@ h2, h3, h4
 {
 
   padding: 0 20px 0 20px;
-
 }
 
 #cursus
@@ -239,24 +229,25 @@ h2, h3, h4
   margin-bottom: 8px;
 }
 
-
 .date_place
 {
   display: flex;
   font-size: 0.8em;
   width: 200px;
   align-items: center;
-
 }
+
 .experience_titre
 {
   display: flex;
 }
+
 .travail
 {
   display: flex;
   justify-content: space-between;
 }
+
 .recommandation_titre
 {
   display: flex;
@@ -266,6 +257,7 @@ h2, h3, h4
 {
   margin-left: 20px;
 }
+
 .date_place i
 {
   width: 15px;
@@ -274,6 +266,7 @@ h2, h3, h4
   opacity: 0.7;
   color: #006064;
 }
+
 .education_titre, .experience_titre, .recommandations_titre
 {
   display: flex;
