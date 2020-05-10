@@ -79,8 +79,8 @@ header
   min-width: 30%;
   justify-content: center;
   align-items: center;
-
 }
+
 .id_photo
 {
   width: 170px;
@@ -124,10 +124,12 @@ header
   margin-bottom: 0;
   font-weight: bold;
 }
+
 .contact_info p
 {
   margin-top: 0;
 }
+
 .contact_info a
 {
   color: black;
@@ -195,28 +197,27 @@ h2, h3, h4
   padding-left: 5%;
   padding-right: 5%;
 }
-#cursus
-{
-  /* margin-right: 5px; */
-  /* margin-left: 15px; */
-}
+
 .education_titre
 {
   display: flex;
   margin-bottom: 20px;
   margin-top: 5px;
 }
+
 .diplome
 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .societe
 {
   width: 60%;
   margin-left: 15%;
 }
+
 .societe p
 {
   font-size: 0.9em;
@@ -224,6 +225,7 @@ h2, h3, h4
   margin-top: 8px;
   color: #006064;
 }
+
 .societe h3
 {
   margin-bottom: 8px;
@@ -289,6 +291,7 @@ h2, h3, h4
   opacity: 0.8;
   color: #26C6DA;
 }
+
 .education_titre p,.experience_titre p, .recommandations_titre p
 {
   margin-bottom: 5px;
@@ -307,6 +310,7 @@ h2, h3, h4
     flex-direction: column;
     align-items: center;
   }
+
   body
   {
     width: 100%;
@@ -319,20 +323,24 @@ h2, h3, h4
     border: none;
     align-self: : center;
   }
+
   #cv
   {
     flex-direction: column-reverse;
   }
+
   #colone_gauche
   {
     width: 100%;
     min-width: 100%;
   }
+
   #cursus
   {
     width: 90%;
     padding: 0 5% 0 5%;
   }
+  
   #cursus h2
   {
     margin-bottom: 3px;
