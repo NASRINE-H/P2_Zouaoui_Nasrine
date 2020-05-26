@@ -321,7 +321,7 @@ h2, h3, h4
     width: 95%;
     box-shadow: none;
     border: none;
-    align-self: : center;
+    align-self: center;
   }
 
   #cv
@@ -412,7 +412,7 @@ h2, h3, h4
   .date_place
   {
     width: 100px;
-    min-width: 100px
+    min-width: 100px;
     font-size: 0.9em;
   }
   
